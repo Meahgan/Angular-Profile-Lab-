@@ -1,0 +1,85 @@
+body {
+  padding: 100px;
+  background-color: limegreen;
+}
+
+a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: blue;
+  width: 100px;
+  height: 40px;
+  color: white;
+  font-size: 15px;
+  font-family: helvetica;
+  border-radius: 30px;
+  text-decoration: none;
+}
+
+#container {
+  display: flex;
+  justify-content: space-between;
+  padding: 100px;
+  border: 2px solid limegreen;
+  background-color: white;
+  border-radius: 10px;
+}
+
+#profileInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 80px;
+  width: 500px;
+  height: 500px;
+  background-color: white;
+}
+
+h1 {
+  font-family: helvetica;
+  font-size: 25px;
+  color: purple;
+}
+
+h2 {
+  font-family: helvetica;
+  font-size: 15px;
+  color: purple;
+}
+
+p {
+  font-family: helvetica;
+  font-size: 20px;
+  color: purple;
+}
+
+#edit {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+  padding: 50px;
+  border: 2px solid limegreen;
+  background-color: white;
+  border-radius: 10px;
+  font-family: helvetica;
+  font-size: 15px;
+  color: purple;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: blue;
+  width: 300px;
+  height: 40px;
+  color: white;
+  font-size: 15px;
+  font-family: helvetica;
+  border-radius: 30px;
+  margin: auto;
+  margin-top: 40px;
+  text-decoration: none;
+}
